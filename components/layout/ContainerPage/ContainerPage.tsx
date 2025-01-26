@@ -5,7 +5,7 @@ interface ContainerPageProps {
 }
 
 const ContainerPage = ({ children }: ContainerPageProps) => {
-  return <div className="container mx-auto py-4 pb-10">{children}</div>
+  return <div className="container mx-auto pb-28 pt-14">{children}</div>
 }
 
 export default ContainerPage
