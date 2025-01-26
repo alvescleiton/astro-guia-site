@@ -65,7 +65,7 @@ const Footer = () => {
 
         <div className="flex flex-col-reverse justify-between border-t border-black/10 pt-6 text-center">
           <div className="mt-4 text-xs">
-            Copyright © {new Date().getFullYear()} Portal de Loterias - Todos os direitos reservados
+            Copyright © {new Date().getFullYear()} Astro Guia - Todos os direitos reservados
           </div>
 
           <div className="flex items-center justify-center gap-2">

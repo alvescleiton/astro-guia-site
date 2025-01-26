@@ -22,8 +22,8 @@ const font = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: 'Portal de Loterias',
-  description: 'O maior portal de loterias do Brasil',
+  title: 'Astro Guia',
+  description: 'O maior portal esotérico do Brasil',
 }
 
 export default function RootLayout({
@@ -35,16 +35,16 @@ export default function RootLayout({
     <html lang="pt-BR">
       <head>
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Portal de Loterias | O maior portal de loterias do Brasil" />
-        <meta property="og:site_name" content="Portal de Loterias" />
+        <meta property="og:title" content="Astro Guia | O maior portal esotérico do Brasil" />
+        <meta property="og:site_name" content="Astro Guia" />
         <meta property="og:image" content={process.env.NEXT_PUBLIC_DOMAIN} />
-        <meta property="og:image:alt" content="Portal de Loterias | O maior portal de loterias do Brasil" />
+        <meta property="og:image:alt" content="Astro Guia | O maior portal esotérico do Brasil" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Portal de Loterias | O maior portal de loterias do Brasil" />
-        <meta property="twitter:description" content="Portal de Loterias | O maior portal de loterias do Brasil" />
+        <meta property="twitter:title" content="Astro Guia | O maior portal esotérico do Brasil" />
+        <meta property="twitter:description" content="Astro Guia | O maior portal esotérico do Brasil" />
         <meta property="twitter:image" content={process.env.NEXT_PUBLIC_DOMAIN} />
-        <meta property="og:image:alt" content="Portal de Loterias | O maior portal de loterias do Brasil" />
+        <meta property="og:image:alt" content="Astro Guia | O maior portal esotérico do Brasil" />
 
         <link rel="icon" type="image/x-icon" href="/favicon/favicon.png" />
 
