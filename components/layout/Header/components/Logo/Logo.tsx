@@ -6,8 +6,8 @@ import Image from 'next/image'
 const Logo = () => {
   return (
     <Link href="/">
-      <div className={`md:h-18 relative h-[40px] w-[70px] md:w-20`}>
-        <Image priority src="assets/logo.svg" fill={true} alt="Astro Guia" />
+      <div className={`relative h-[30px] w-[150px]`}>
+        <Image priority src="/assets/logo.webp" fill={true} alt="Astro Guia" />
       </div>
     </Link>
   )

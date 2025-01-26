@@ -10,10 +10,6 @@ const DynamicHeader = dynamic(() => import('@/components/layout/Header'), {
   loading: () => <div className="h-11 w-full bg-gray-300"></div>,
 })
 
-const DynamicFooter = dynamic(() => import('@/components/layout/Footer'), {
-  loading: () => <div className="h-11 w-full bg-gray-300"></div>,
-})
-
 const font = Montserrat({
   weight: ['300', '400', '600', '700'],
   style: ['normal', 'italic'],
@@ -73,8 +69,7 @@ export default function RootLayout({
       </head>
       <body className={`${font.className} antialiased`}>
         <DynamicHeader />
-        <main className="bg-white">{children}</main>
-        <DynamicFooter />
+        <main>{children}</main>
       </body>
     </html>
   )
