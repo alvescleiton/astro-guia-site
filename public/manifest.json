@@ -1,0 +1,16 @@
+{
+  "theme_color": "#72297f",
+  "background_color": "#e8e8e8",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Portal de Loterias",
+  "short_name": "Portal de Loterias",
+  "icons": [
+    {
+      "src": "/favicon/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
