@@ -6,9 +6,7 @@ import Image from 'next/image'
 const Logo = () => {
   return (
     <Link href="/">
-      <div className={`relative h-[30px] w-[150px]`}>
-        <Image priority src="/assets/logo.webp" fill={true} alt="Astro Guia" />
-      </div>
+      <Image priority src="/assets/logo.webp" alt="Astro Guia" width={120} height={33} />
     </Link>
   )
 }
