@@ -1,6 +1,6 @@
 {
-  "theme_color": "#72297f",
-  "background_color": "#e8e8e8",
+  "theme_color": "#142131",
+  "background_color": "#142131",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
@@ -8,7 +8,7 @@
   "short_name": "Astro Guia",
   "icons": [
     {
-      "src": "/favicon/favicon.png",
+      "src": "/favicon/favicon-32x32.ico",
       "sizes": "32x32",
       "type": "image/png"
     }

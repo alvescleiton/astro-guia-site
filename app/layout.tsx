@@ -46,9 +46,12 @@ export default function RootLayout({
         <meta property="twitter:image" content={process.env.NEXT_PUBLIC_DOMAIN} />
         <meta property="og:image:alt" content="Astro Guia | O maior portal esotérico do Brasil" />
 
-        <link rel="icon" type="image/x-icon" href="/favicon/favicon.png" />
+        <link rel="icon" type="image/x-icon" href="/favicon/favicon-32x32.ico" />
 
-        <link rel="apple-touch-icon" sizes="32x32" href="/favicon/favicon.png" />
+        <link rel="apple-touch-icon" sizes="32x32" href="/favicon/favicon-32x32.ico" />
+        <link rel="apple-touch-icon" sizes="64x64" href="/favicon/favicon-64x64.ico" />
+        <link rel="apple-touch-icon" sizes="128x128" href="/favicon/favicon-128x128.ico" />
+        <link rel="apple-touch-icon" sizes="256x256" href="/favicon/favicon-256x256.ico" />
 
         <link rel="manifest" href="/manifest.json" />
 
