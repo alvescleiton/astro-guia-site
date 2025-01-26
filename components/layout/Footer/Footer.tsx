@@ -15,25 +15,25 @@ const Footer = () => {
         </div>
 
         <div className="rounded-full bg-slate-900 p-3">
-          <Link href="/">
+          <Link href="/horoscopo">
             <GiNorthStarShuriken size={20} />
           </Link>
         </div>
 
         <div className="rounded-full bg-slate-900 p-3">
-          <Link href="/">
-            <FaRegNewspaper size={20} />
-          </Link>
-        </div>
-
-        <div className="rounded-full bg-slate-900 p-3">
-          <Link href="/">
+          <Link href="/sonhos">
             <GiNightSleep size={20} />
           </Link>
         </div>
 
         <div className="rounded-full bg-slate-900 p-3">
-          <Link href="/">
+          <Link href="/noticias">
+            <FaRegNewspaper size={20} />
+          </Link>
+        </div>
+
+        <div className="rounded-full bg-slate-900 p-3">
+          <Link href="/mapa-astral">
             <TbMapHeart size={20} />
           </Link>
         </div>
