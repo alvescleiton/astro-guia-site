@@ -7,32 +7,32 @@ import { TbMapHeart } from 'react-icons/tb'
 const Footer = () => {
   return (
     <footer className="fixed bottom-0 w-full bg-background">
-      <div className="mx-auto flex min-h-20 max-w-[400px] items-center justify-evenly">
+      <div className="mx-auto flex min-h-20 max-w-[400px] items-center justify-evenly pb-1">
         <div className="rounded-full bg-slate-800 p-3">
           <Link href="/">
             <FaHome size={20} />
           </Link>
         </div>
 
-        <div className="rounded-full bg-slate-800 p-3">
+        <div className="rounded-full bg-slate-900 p-3">
           <Link href="/">
             <GiNorthStarShuriken size={20} />
           </Link>
         </div>
 
-        <div className="rounded-full bg-slate-800 p-3">
+        <div className="rounded-full bg-slate-900 p-3">
           <Link href="/">
             <FaRegNewspaper size={20} />
           </Link>
         </div>
 
-        <div className="rounded-full bg-slate-800 p-3">
+        <div className="rounded-full bg-slate-900 p-3">
           <Link href="/">
             <GiNightSleep size={20} />
           </Link>
         </div>
 
-        <div className="rounded-full bg-slate-800 p-3">
+        <div className="rounded-full bg-slate-900 p-3">
           <Link href="/">
             <TbMapHeart size={20} />
           </Link>
