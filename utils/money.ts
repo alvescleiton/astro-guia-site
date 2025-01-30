@@ -1,5 +1,5 @@
 export function formatMoney(value: number) {
-  let real = new Intl.NumberFormat('pt-BR', {
+  const real = new Intl.NumberFormat('pt-BR', {
     style: 'currency',
     currency: 'BRL',
   })
