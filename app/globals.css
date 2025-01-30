@@ -9,18 +9,15 @@
   --foreground: #e5e5e5;
 }
 
-html,
-body {
-  background-color: var(--background);
-}
-
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: var(--foreground);
+  background-color: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
+  font-display: swap;
 }
 
 .container {

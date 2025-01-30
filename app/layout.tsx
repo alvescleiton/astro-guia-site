@@ -4,7 +4,6 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 import { Montserrat } from 'next/font/google'
-import Script from 'next/script'
 
 const DynamicHeader = dynamic(() => import('@/components/layout/Header'), {
   loading: () => <div className="h-11 w-full bg-gray-300"></div>,
@@ -49,13 +48,10 @@ export default function RootLayout({
         <link rel="icon" type="image/x-icon" href="/favicon/favicon-32x32.ico" />
 
         <link rel="apple-touch-icon" sizes="32x32" href="/favicon/favicon-32x32.ico" />
-        <link rel="apple-touch-icon" sizes="64x64" href="/favicon/favicon-64x64.ico" />
-        <link rel="apple-touch-icon" sizes="128x128" href="/favicon/favicon-128x128.ico" />
-        <link rel="apple-touch-icon" sizes="256x256" href="/favicon/favicon-256x256.ico" />
 
         <link rel="manifest" href="/manifest.json" />
 
-        {process.env.NODE_ENV === 'production' && (
+        {/* {process?.env?.NODE_ENV === 'production' && (
           <>
             <Script async src="https://www.googletagmanager.com/gtag/js?id=G-EGZN7BHYEL" />
             <Script
@@ -72,7 +68,7 @@ export default function RootLayout({
               }}
             />
           </>
-        )}
+        )} */}
       </head>
       <body className={`${font.className} antialiased`}>
         <DynamicHeader />
