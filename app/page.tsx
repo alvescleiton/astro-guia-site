@@ -15,22 +15,38 @@ const Home = () => {
 
       <div className="mt-4 grid grid-cols-2 gap-3">
         <div className="flex min-h-16 items-center justify-center rounded-lg bg-red-900 text-sm">
-          <Link href="/oraculo/combinacao-de-nomes" prefetch={false} className="text-center">
+          <Link
+            href="/oraculo/combinacao-de-nomes"
+            prefetch={false}
+            className="flex h-full w-full items-center justify-center"
+          >
             Combinação de Nomes
           </Link>
         </div>
         <div className="flex min-h-16 items-center justify-center rounded-lg bg-purple-900 text-sm">
-          <Link href="/oraculo/combinacao-de-signos" prefetch={false} className="text-center">
+          <Link
+            href="/oraculo/combinacao-de-signos"
+            prefetch={false}
+            className="flex h-full w-full items-center justify-center text-center"
+          >
             Combinação de Signos
           </Link>
         </div>
         <div className="flex min-h-16 items-center justify-center rounded-lg bg-blue-900 text-sm">
-          <Link href="/oraculo/numerologia-do-nome" prefetch={false} className="text-center">
+          <Link
+            href="/oraculo/numerologia-do-nome"
+            prefetch={false}
+            className="flex h-full w-full items-center justify-center text-center"
+          >
             Numerologia do Nome
           </Link>
         </div>
         <div className="flex min-h-16 items-center justify-center rounded-lg bg-amber-900 text-sm">
-          <Link href="/oraculo/numerologia-do-nascimento" prefetch={false} className="text-center">
+          <Link
+            href="/oraculo/numerologia-do-nascimento"
+            prefetch={false}
+            className="flex h-full w-full items-center justify-center text-center"
+          >
             Numerologia do Nascimento
           </Link>
         </div>
