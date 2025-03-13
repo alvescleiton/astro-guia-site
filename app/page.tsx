@@ -1,17 +1,21 @@
 import React from 'react'
-
+import Image from 'next/image'
 import ContainerPage from '@/components/layout/ContainerPage'
 import Link from 'next/link'
 
 const Home = () => {
   return (
     <ContainerPage>
-      <div
-        className="flex h-36 w-full items-center justify-center bg-slate-800 bg-right"
-        style={{
-          backgroundImage: 'url(/assets/banners/banner-horoscopo.png)',
-        }}
-      ></div>
+      <div className="relative flex h-36 w-full items-center justify-center bg-slate-800 bg-right">
+        <Image
+          src="/assets/banners/banner-horoscopo.webp"
+          alt="Banner Horoscopo"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="right"
+          priority
+        />
+      </div>
 
       <div className="mt-4 grid grid-cols-2 gap-3">
         <div className="flex min-h-16 items-center justify-center rounded-lg bg-red-900 text-sm lg:hover:opacity-90">
