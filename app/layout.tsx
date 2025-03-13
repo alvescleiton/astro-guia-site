@@ -49,7 +49,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="32x32" href="/favicon/favicon-32x32.ico" />
         <link rel="manifest" href="/manifest.json" />
       </head>
-      <body className={`${font.className} antialiased`}>
+      <body className={`${font.className} antialiased`} suppressHydrationWarning>
         <DynamicHeader />
         <main>{children}</main>
         <DynamicFooter />
