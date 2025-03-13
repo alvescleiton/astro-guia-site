@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  productionBrowserSourceMaps: true,
+  productionBrowserSourceMaps: false,
   compress: true,
 }
 
