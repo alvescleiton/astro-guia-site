@@ -2,20 +2,13 @@ import Link from 'next/link'
 import dynamic from 'next/dynamic'
 import React from 'react'
 
-const FaHome = dynamic(() => import('react-icons/fa').then((module) => ({ default: module.FaHome })), { ssr: false })
-const FaRegNewspaper = dynamic(() => import('react-icons/fa').then((module) => ({ default: module.FaRegNewspaper })), {
-  ssr: false,
-})
-const GiNorthStarShuriken = dynamic(
-  () => import('react-icons/gi').then((module) => ({ default: module.GiNorthStarShuriken })),
-  { ssr: false },
+const FaHome = dynamic(() => import('react-icons/fa').then((module) => ({ default: module.FaHome })))
+const FaRegNewspaper = dynamic(() => import('react-icons/fa').then((module) => ({ default: module.FaRegNewspaper })))
+const GiNorthStarShuriken = dynamic(() =>
+  import('react-icons/gi').then((module) => ({ default: module.GiNorthStarShuriken })),
 )
-const GiNightSleep = dynamic(() => import('react-icons/gi').then((module) => ({ default: module.GiNightSleep })), {
-  ssr: false,
-})
-const TbMapHeart = dynamic(() => import('react-icons/tb').then((module) => ({ default: module.TbMapHeart })), {
-  ssr: false,
-})
+const GiNightSleep = dynamic(() => import('react-icons/gi').then((module) => ({ default: module.GiNightSleep })))
+const TbMapHeart = dynamic(() => import('react-icons/tb').then((module) => ({ default: module.TbMapHeart })))
 
 const Footer = () => {
   return (
