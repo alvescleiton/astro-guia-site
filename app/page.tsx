@@ -10,9 +10,8 @@ const Home = () => {
         <Image
           src="/assets/banners/banner-horoscopo.webp"
           alt="Banner Horoscopo"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="right"
+          fill
+          style={{ objectFit: 'cover', objectPosition: 'right' }}
           priority
         />
       </div>
