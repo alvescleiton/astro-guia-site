@@ -10,6 +10,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "bstart": "next build && next start",
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "jest"
