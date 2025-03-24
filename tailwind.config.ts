@@ -3,6 +3,7 @@ import type { Config } from 'tailwindcss'
 const colors = {
   background: 'var(--background)',
   primary: 'var(--primary)',
+  'primary-dark': 'var(--primary-dark)',
   secondary: 'var(--secondary)',
   foreground: 'var(--foreground)',
 }
