@@ -18,51 +18,60 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container">
-        <div className="mt-8">
-          <h1 className="mt-4 text-center text-2xl font-bold">Oráculos</h1>
-          <p className="mt-2 text-center text-sm">
+      <div className="mt-6 bg-primary-dark pb-6 pt-4">
+        <div className="container mx-auto mb-6">
+          <h1 className="text-2xl font-bold">Oráculos</h1>
+          <p className="mt-2 text-sm">
             Explore a combinação de nomes e signos, e descubra os significados da numerologia do seu nome e nascimento.
           </p>
         </div>
-      </div>
 
-      <div className="mt-4 flex gap-3 overflow-x-auto scroll-smooth bg-primary-dark p-4">
-        <div className="flex min-h-16 w-[40%] flex-shrink-0 items-center justify-center rounded-lg bg-red-900 text-sm">
-          <Link
-            href="/oraculo/combinacao-de-nomes"
-            prefetch={false}
-            className="flex h-full w-full items-center justify-center"
-          >
-            Combinação de Nomes
-          </Link>
-        </div>
-        <div className="flex min-h-16 w-[40%] flex-shrink-0 items-center justify-center rounded-lg bg-purple-900 text-sm">
-          <Link
-            href="/oraculo/combinacao-de-signos"
-            prefetch={false}
-            className="flex h-full w-full items-center justify-center text-center"
-          >
-            Combinação de Signos
-          </Link>
-        </div>
-        <div className="flex min-h-16 w-[40%] flex-shrink-0 items-center justify-center rounded-lg bg-blue-900 text-sm">
-          <Link
-            href="/oraculo/numerologia-do-nome"
-            prefetch={false}
-            className="flex h-full w-full items-center justify-center text-center"
-          >
-            Numerologia do Nome
-          </Link>
-        </div>
-        <div className="flex min-h-16 w-[40%] flex-shrink-0 items-center justify-center rounded-lg bg-amber-900 text-sm">
-          <Link
-            href="/oraculo/numerologia-do-nascimento"
-            prefetch={false}
-            className="flex h-full w-full items-center justify-center text-center"
-          >
-            Numerologia do Nascimento
-          </Link>
+        <div className="container mx-auto grid grid-cols-2 gap-4 md:grid-cols-4">
+          <div className="flex min-h-16 items-center justify-center rounded-lg bg-background py-4 text-xs md:text-sm">
+            <Link
+              href="/oraculo/combinacao-de-nomes"
+              prefetch={false}
+              className="flex h-full w-full flex-col items-center justify-center gap-3 text-center"
+            >
+              <Image src="/assets/oracle/combinacao-de-nomes.webp" alt="Combinação de Nomes" width={60} height={60} />
+              Combinação de Nomes
+            </Link>
+          </div>
+          <div className="flex min-h-16 items-center justify-center rounded-lg bg-background py-4 text-xs md:text-sm">
+            <Link
+              href="/oraculo/combinacao-de-signos"
+              prefetch={false}
+              className="flex h-full w-full flex-col items-center justify-center gap-3 text-center"
+            >
+              <Image src="/assets/oracle/combinacao-de-signos.webp" alt="Combinação de Signos" width={60} height={60} />
+              Combinação de Signos
+            </Link>
+          </div>
+          <div className="flex min-h-16 items-center justify-center rounded-lg bg-background py-4 text-xs md:text-sm">
+            <Link
+              href="/oraculo/numerologia-do-nome"
+              prefetch={false}
+              className="flex h-full w-full flex-col items-center justify-center gap-3 text-center"
+            >
+              <Image src="/assets/oracle/numerologia-do-nome.webp" alt="Numerologia do Nome" width={60} height={60} />
+              Numerologia do Nome
+            </Link>
+          </div>
+          <div className="flex min-h-16 items-center justify-center rounded-lg bg-background py-4 text-xs md:text-sm">
+            <Link
+              href="/oraculo/numerologia-do-nascimento"
+              prefetch={false}
+              className="flex h-full w-full flex-col items-center justify-center gap-3 text-center"
+            >
+              <Image
+                src="/assets/oracle/numerologia-do-nascimento.webp"
+                alt="Numerologia do Nascimento"
+                width={60}
+                height={60}
+              />
+              Numerologia do Nascimento
+            </Link>
+          </div>
         </div>
       </div>
     </ContainerPage>
