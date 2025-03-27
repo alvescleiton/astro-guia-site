@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Home = () => {
   return (
     <ContainerPage>
-      <div className="container">
+      <div className="container mx-auto">
         <div className="relative flex h-36 w-full items-center justify-center bg-right">
           <Image
             src="/assets/banners/banner-horoscopo.webp"
@@ -27,7 +27,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-primary-dark mt-4 flex gap-3 overflow-x-auto scroll-smooth p-4">
+      <div className="mt-4 flex gap-3 overflow-x-auto scroll-smooth bg-primary-dark p-4">
         <div className="flex min-h-16 w-[40%] flex-shrink-0 items-center justify-center rounded-lg bg-red-900 text-sm">
           <Link
             href="/oraculo/combinacao-de-nomes"
