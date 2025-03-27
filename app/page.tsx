@@ -10,7 +10,7 @@ const Home = () => {
         <div className="relative flex h-36 w-full items-center justify-center bg-right">
           <Image
             src="/assets/banners/banner-horoscopo.webp"
-            alt="Banner Horoscopo"
+            alt="Banner Horóscopo"
             fill
             style={{ objectFit: 'cover', objectPosition: 'right' }}
             priority
@@ -33,7 +33,13 @@ const Home = () => {
               prefetch={false}
               className="flex h-full w-full flex-col items-center justify-center gap-3 text-center"
             >
-              <Image src="/assets/oracle/combinacao-de-nomes.webp" alt="Combinação de Nomes" width={60} height={60} />
+              <Image
+                src="/assets/oracle/combinacao-de-nomes.webp"
+                alt="Ícone para combinação de nomes"
+                width={60}
+                height={60}
+                loading="lazy"
+              />
               Combinação de Nomes
             </Link>
           </div>
@@ -43,7 +49,13 @@ const Home = () => {
               prefetch={false}
               className="flex h-full w-full flex-col items-center justify-center gap-3 text-center"
             >
-              <Image src="/assets/oracle/combinacao-de-signos.webp" alt="Combinação de Signos" width={60} height={60} />
+              <Image
+                src="/assets/oracle/combinacao-de-signos.webp"
+                alt="Ícone para combinação de signos"
+                width={60}
+                height={60}
+                loading="lazy"
+              />
               Combinação de Signos
             </Link>
           </div>
@@ -53,7 +65,13 @@ const Home = () => {
               prefetch={false}
               className="flex h-full w-full flex-col items-center justify-center gap-3 text-center"
             >
-              <Image src="/assets/oracle/numerologia-do-nome.webp" alt="Numerologia do Nome" width={60} height={60} />
+              <Image
+                src="/assets/oracle/numerologia-do-nome.webp"
+                alt="Ícone para numerologia do nome"
+                width={60}
+                height={60}
+                loading="lazy"
+              />
               Numerologia do Nome
             </Link>
           </div>
@@ -65,9 +83,10 @@ const Home = () => {
             >
               <Image
                 src="/assets/oracle/numerologia-do-nascimento.webp"
-                alt="Numerologia do Nascimento"
+                alt="Ícone para numerologia do nascimento"
                 width={60}
                 height={60}
+                loading="lazy"
               />
               Numerologia do Nascimento
             </Link>
