@@ -7,7 +7,7 @@ const FaRegNewspaper = dynamic(() => import('react-icons/fa').then((module) => (
 const GiNorthStarShuriken = dynamic(() =>
   import('react-icons/gi').then((module) => ({ default: module.GiNorthStarShuriken })),
 )
-const GiNightSleep = dynamic(() => import('react-icons/gi').then((module) => ({ default: module.GiNightSleep })))
+const GiAbstract007 = dynamic(() => import('react-icons/gi').then((module) => ({ default: module.GiAbstract007 })))
 const TbMapHeart = dynamic(() => import('react-icons/tb').then((module) => ({ default: module.TbMapHeart })))
 
 const Footer = () => {
@@ -27,8 +27,8 @@ const Footer = () => {
         </div>
 
         <div className="rounded-full bg-slate-900 p-3">
-          <Link href="/sonhos" prefetch={false} aria-label="Sonhos">
-            <GiNightSleep size={20} aria-hidden="true" />
+          <Link href="/simpatias" prefetch={false} aria-label="Simpatias">
+            <GiAbstract007 size={20} aria-hidden="true" />
           </Link>
         </div>
 
